@@ -1,0 +1,15 @@
+{
+  "name": "felayout_t3kit",
+  "devDependencies": {
+    "jquery": "2.2.0",
+    "bootstrap": "3.3.6",
+    "flag-icon-css": "1.0.0",
+    "typeahead.js": "0.10.2",
+    "swiper": "3.3.0",
+    "jQuery.dotdotdot": "1.7.4",
+    "spectrum": "1.7.1",
+    "awesomplete": "https://github.com/LeaVerou/awesomplete.git#8cd36cc49",
+    "simplelightbox": "1.8.1",
+    "jarallax": "1.6.0"
+  }
+}
