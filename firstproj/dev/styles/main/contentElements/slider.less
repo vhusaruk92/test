@@ -1,0 +1,109 @@
+// // =========================================================
+// // === Image Slidel ========================================
+// // =========================================================
+//
+.img-slider{
+    max-width: 1280px;
+    height: 300px;
+}
+
+// .img-slider__slide {
+// }
+.img-slider__slide-bg{
+    height: 100%;
+    // background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-slider__caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+}
+
+.img-slider__caption-sub-header{
+    font-weight: 300;
+    font-size: 20px;
+    color: #555;
+
+}
+.img-slider__caption-header{
+    text-shadow: 0 1px 0 rgba(100,100,100,.3);
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+
+}
+.img-slider__caption-p{
+    font-size: 13px;
+    color: #fff;
+    background-color: rgba(100,100,100,.3);
+    background-color: rgba(100,100,100,.3);
+    padding: 6px 10px;
+}
+.img-slider__caption-link{
+    padding: 6px;
+    background: @main-color;
+    color: #FFF;
+    font-size: 14px;
+}
+.no-touch .img-slider__caption-link:hover{
+    color: #FFF;
+    background: darken(@main-color, 5%);
+}
+.img-slider__pagination{
+
+}
+
+.img-slider__btn-next{
+    display: none;
+}
+
+.img-slider__btn-prev{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .img-slider__caption{
+        padding: 30px 50px;
+        width: 80%;
+    }
+    .img-slider__btn-next{
+        display: block;
+    }
+    .img-slider__btn-prev{
+        display: block;
+    }
+    .img-slider{
+        height: 400px;
+    }
+    .img-slider__caption-p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .img-slider__caption{
+        padding: 20px 60px;
+        width: 70%;
+    }
+    .img-slider__caption-sub-header{
+        font-size: 26px;
+    }
+    .img-slider__caption-header{
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+    .img-slider__caption-p{
+        padding:12px 20px;
+        height: auto;
+    }
+    .img-slider__caption-link{
+        padding: 6px 8px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
