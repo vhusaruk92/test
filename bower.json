@@ -1,0 +1,23 @@
+{
+  "name": "test_bower",
+  "authors": [
+    "Viktoria Husaruk <vhusaruk92@gmail.com>"
+  ],
+  "description": "no",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.0"
+  }
+}
